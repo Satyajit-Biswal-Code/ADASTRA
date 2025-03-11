@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/adastra logo.png" type="image/x-icon" />
+    <title>Adastra'25</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+   
+    <div class="registration">
+        <h1>ADASTRA'25 Event Registration</h1>
+    <form name="registration-form" action="https://script.google.com/macros/s/AKfycbyeLrWjbw9o4_dDWiU-fM4_b2HVt7EmHqILR6DdxzVBFxbPpiuQ12LNFbQeesDerFQW2g/exec" method="post">
+        <label for="event">Select Event:</label><br>
+        <select id="event" name="event" required>
+            <option value="">Select</option>
+            <option value="deathrace">Death Race</option>
+            <option value="robosumo">Robo Sumo</option>
+            <option value="robosoccer">Robo Soccer</option>
+            <option value="linefollower">Line Follower</option>
+            <option value="droneleague">Drone League</option>
+            <option value="hackathon">Hackathon</option>
+            <option value="codathon">Codathon</option>
+        </select><br><br>
+
+
+        <label for="name">Team Name:</label><br>
+        <input type="text" id="name" name="teamName" required><br><br>
+
+        <label for="name">Team Leader Name:</label><br>
+        <input type="text" id="name" name="leaderName" required><br><br>
+
+        <label for="name">Team Leader Phone no:</label><br>
+        <input type="text" id="name" name="leaderPhno" required><br><br>
+
+
+        <label for="email">Team Leader Email:</label><br>
+        <input type="email" id="email" name="leaderEmail" required><br><br>
+
+
+        
+
+        
+        <a href="Event.html" id="cancel">Cancel</a>
+        <button type="submit">Register</button>
+
+        <p id="p">Registration Successfull !</p>
+    </form>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>
