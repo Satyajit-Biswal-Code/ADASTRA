@@ -94,8 +94,9 @@ nav .menu .dropdown:hover .dropdown-content {
 }
 .gallery img {
   height: 200px;
-  width: 250px;
+  width: 270px;
   border-radius: 10px;
   gap: 10px;
-  padding: 10px;
+  margin-left: 6px;
+  /* padding: 10px; */
 }
